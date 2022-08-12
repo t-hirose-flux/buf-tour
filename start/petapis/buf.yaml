@@ -1,0 +1,11 @@
+version: v1
+name: buf.build/quallen/petapis
+deps:
+  - buf.build/googleapis/googleapis
+  - buf.build/quallen/paymentapis
+lint:
+  use:
+    - DEFAULT
+breaking:
+  use:
+    - FILE
